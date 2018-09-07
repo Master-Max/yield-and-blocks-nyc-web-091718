@@ -3,6 +3,7 @@ def hello_t(array)
   
   while i < array.length
     yeild array[i]
+    puts array[i]
     i = i + 1
   end
   
